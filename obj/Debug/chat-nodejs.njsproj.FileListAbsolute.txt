@@ -1,0 +1,2 @@
+C:\Development\chat-nodejs\obj\Debug\chat-nodejs.njsprojResolveAssemblyReference.cache
+C:\Development\chat-nodejs\bin\Microsoft.NodejsTools.WebRole.dll

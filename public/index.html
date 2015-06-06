@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chat DHL &mdash; DHL Express Portugal</title>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css' />
+		<link href="/styles/animate.css" rel="stylesheet" type="text/css" />
+		<link href="/styles/style.css" rel="stylesheet" type="text/css" />
+		<link href="/styles/avgrund.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="avgrund-contents">
+			<header>
+				<h1>Chat de suporte eCom para clientes DHL</h1>
+				<h3><a href="http://www.dhl.pt" target="_blank">DHL Express Portugal</a></h3>
+			</header>
+			<div class="pr center wrapper">
+				<div class="cf pr chat animate">
+					<div class="pa chat-shadow">
+						<div class="content animate bounceInDown">Clique <div class="big-button-green start">AQUI</div> para come&ccedilar...</div>
+					</div>
+					<div class="cf chat-top">
+						<div class="fl chat-left">
+							<div class="chat-messages">
+								<ul></ul>
+							</div>
+						</div>
+						<div class="fl chat-right">
+							<div class="chat-clients">
+								<div class="cf title">
+									<div class="fl">Visitantes</div>
+								</div>
+								<ul></ul>
+							</div>
+							<div class="chat-rooms">
+								<div class="cf title">
+									<div class="fl">Agentes DHL</div>
+								</div>
+								<ul class="pr"></ul>
+							</div>
+						</div>
+					</div>
+					<div class="cf chat-bottom">
+						<div class="fl chat-input">
+							<input type="text" placeholder="digite o texto a enviar..." />
+						</div>
+						<div class="fl chat-submit">
+							<button>Enviar &rarr;</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+		<aside id="nickname-popup" class="popup animate avgrund-popup">
+			<div class="title">Digite o seu nome</div>
+			<div class="content">P.f. introduza um nome at&eacute 15 caracteres</div>
+			<div class="input"><input type="text" maxlength="15" placeholder="nome..." /></div>
+			<div class="big-button-green small begin">&mdash; Iniciar &mdash;</div>
+		</aside>
+		<div class="avgrund-cover"></div>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="/scripts/jquery.tmpl.min.js"></script>
+		<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="/scripts/avgrund.js"></script>
+		<script type="text/javascript" src="/scripts/chat.io.js"></script>
+	</body>
+
+</html>
